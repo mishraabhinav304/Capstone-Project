@@ -16,7 +16,7 @@ pipeline:
             type: VM
             spec:
               os: Linux
-              poolName: ci-delegate 
+              poolName: docker-delegate
 
           execution:
             steps:
